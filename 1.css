@@ -1,0 +1,703 @@
+/* I, hereby declare that this file entitled “1.css_Saim Raza Gondal_173087_BSCS6C” submitted as an 
+assignment for the course CS344: Web Engineering, is a record of an original work done by me and that no part has been plagiarized.*/
+
+
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	width: 1200px;
+	margin: 0 auto;
+	background-color: #efefef;	
+}
+
+
+/*****************HEADER***************/
+header {
+	width: 100%;
+	height: 65px;
+	padding-top: 5px;
+	background-color: #efefef;
+	position: relative;
+}
+
+header .logo{
+	float: left;
+	width: 9%;
+	height: 98%;
+	margin-left: 1.2%;
+}
+
+header .signup{
+	position: absolute;
+	right: 1%;
+	bottom: 25px;
+	font-size: 13pt;
+	margin-top: 1%;
+	margin-right: 1.5%;
+}
+
+a{
+	font-family:Calibri, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif"
+	
+}
+
+header .login{
+	position: absolute;
+	top: 15%;
+	right: 8%;
+	bottom: 25px;
+	font-size: 13pt;
+	line-height: 18pt;
+	margin-top: 1%;
+	margin-right: 1%;
+	border-right: 1px solid black;
+	padding-right: 25px;
+}
+
+
+
+
+
+header .login a, header .signup a{
+	text-decoration: none;
+	color: black;
+	
+}
+
+.login a:hover, .signup a:hover{
+	cursor: pointer;
+	color: #b82601;
+	text-decoration: none;
+	text-decoration-color: none;
+}
+
+/************HEADER END****************/
+
+
+
+.menu{
+	display: inline-block;
+	position: relative;
+}
+.menu_anchor{
+	margin-left: 25px;
+	position: relative;
+	top: 10px;
+	color: #efefef;
+}
+
+.d_content{
+	display: none;
+	min-width: 170px;
+	position: absolute;
+	top:30px;
+	left: -15px;
+	z-index: 1;
+	border: 1px solid black;
+	border-top: none;
+	background-color: #efefef;
+}
+
+.d_content a{
+	display: block;
+	color: black;
+	padding: 10px 10px;
+	
+	
+}
+
+.d_content a:hover{
+	color: #b82601;
+	border-bottom: 1px solid #b82016;
+	border-top: 1px solid #b82016;
+	opacity: 1;
+}
+.menu:hover .d_content{
+	display: block;
+}
+
+
+
+
+
+
+/************SEARCH BAR***************/
+
+.search_div{
+	width: 100%;
+	height: 40px;
+	border-bottom: 1px solid black;
+	border-top: 1px solid black;
+	color: #efefef;
+	background-color: #b82601;
+
+}
+.search_div{
+	position: relative;
+}
+.search_div img{
+	position: absolute;
+	right: 8px;
+	top: 8px;
+	bottom: 10px;
+	width: 2%;
+}
+.search_div input{
+	width: 25%;
+	position: absolute;
+	border-radius: 20px;
+	outline: none;
+	border: none;
+	right: 3%;
+	top: 10px;
+	bottom: 10px;
+	padding-left: 5px;
+	font-size: 11pt;
+	font-style: italic;
+}
+.search_div input:focus{
+	font-style: normal;
+	font-family: calibri;
+}
+.search_div ul{
+	list-style: none;	
+}
+.search_div ul li{
+	display: inline;
+	padding-left: 5px;
+}
+.search_div ul li a {	
+	position: relative;
+	
+	text-decoration: none;
+		
+	
+}
+.search_div .title{
+	position: relative;
+	top: 10px;
+	left: 15px;
+	padding-right: 20px;
+	border-right: 1px solid #efefef;
+	font-family: calibri;
+}
+
+
+
+
+
+
+
+
+
+/****SEARCH BAR END************/
+
+
+
+
+
+
+
+.main_wrapper{
+	width: 100%;
+	margin: 0 auto;
+	padding-top: 0.5%;
+	position: relative;
+}
+
+
+
+/***********************Right Side *****************/
+
+.right{ /* 25 */
+	width: 23%;
+	height: 250px;
+	position: absolute;
+	right: 0;
+	margin-right: 0.5%;
+	padding: 1%;
+	background-color: white;
+	font-family: calibri;
+	text-align: left;
+}
+.right a{
+	color: black;
+	text-decoration: none;
+}
+.right a:hover{
+	color: #b82601;
+}
+
+.right h2{
+	padding-left: 5px;
+	padding-bottom: 5px;
+	font-size: 125%;
+	font-family: calibri;
+	font-weight: 600;
+}
+.right ul{
+	padding-left: 12px;
+	font-size: 10.5pt;
+}
+.right ul li{
+	padding: 5px 0px;
+}
+.right .points {
+	padding: 5px;	
+}
+
+
+
+
+.ads{
+	width: 24%;
+	position: absolute;
+	height: auto;
+	top: 280px; right: 0;
+	margin-right: 1%;
+	padding: 1%;
+
+}
+.ads img{
+	border: 1px solid black;
+}
+
+
+
+
+
+.table{
+	width: 23%;
+	position: absolute;
+	top: 700px; right: 0;
+	margin-right: 0.5%;
+	padding: 1%;
+	background-color: white;
+	font-family: calibri;
+	text-align: left;
+}
+.table h2{
+	font-size: 125%;
+	font-weight: 100;
+	text-align: center;
+	padding-bottom: 10px;
+	letter-spacing: 0.1px;
+}
+.table table{
+	text-align: center;
+	padding: 10px 0;
+	padding-bottom: 15px;
+}
+.table h3 a , .batsmen .complete a{
+	text-decoration: none;
+	letter-spacing: 0.3px;
+	color: #b82601;
+	font-weight: 100;
+}
+.table h3 a:hover {
+	text-decoration: underline;
+}
+
+.table h3{
+	font-size: 105%;
+	text-align: center;
+	padding-top: 10px;
+	}
+
+.table .team{
+	color: #b82601;
+}
+.table .gray_row{
+	background-color: #F9F9F9;
+}
+
+
+
+
+
+
+.batsmen{
+	width: 23%;
+	position: absolute;
+	top: 980px; right: 0;
+	margin-right: 0.5%;
+	padding: 1%;
+	padding-bottom: 0.5%;
+	background-color: white;
+	font-family: calibri;
+	text-align: left; 
+}
+.batsmen .first_b{
+	height: 70px;
+}
+.batsmen .first_b img{
+	padding-top: 5px;
+	width: 22%;
+	border-radius: 40%;
+}
+.batsmen .first_b .name{
+	position: relative;
+	top: -25px;
+	left: 10px;
+	font-size: 11pt;
+}
+.batsmen .first_b .type_bat{
+	position: relative;
+	left: 72px;
+	font-size: 11pt;
+}
+.batsmen .first_b .runs{
+	font-size: 19pt;
+	position: relative;
+	left: 240px;
+	top: -65px;
+}
+.batsmen h2{
+	font-size: 125%;
+	font-weight: 500;
+	padding-bottom: 5px; 
+	padding-left: 5px;
+}
+
+.batsmen .complete{
+	text-align: center;
+	text-decoration: none;
+	font-size: 105%;
+	letter-spacing: 0.3px;
+	color: #b82601;
+	font-weight: 100;
+	padding-top: 10px;
+}
+
+.batsmen .complete a:hover{
+	text-decoration: underline;
+}
+
+
+
+.bowlers{
+	width: 23%;
+	position: absolute;
+	top: 1315px; right: 0;
+	margin-right: 0.5%;
+	padding: 1%;
+	padding-bottom: 0.5%;
+	background-color: white;
+	font-family: calibri;
+	text-align: left; 
+}
+.bowlers .first_b{
+	height: 70px;
+}
+.bowlers .first_b img{
+	padding-top: 5px;
+	width: 25%;
+	border-radius: 40%;
+}
+.bowlers .first_b .name{
+	position: relative;
+	top: -25px;
+	left: 10px;
+	font-size: 11pt;
+}
+.bowlers .first_b .type_bat{
+	position: relative;
+	left: 73px;
+	font-size: 11pt;
+}
+.bowlers .first_b .runs{
+	font-size: 19pt;
+	position: relative;
+	left: 250px;
+	top: -65px;
+}
+.bowlers h2{
+	font-size: 125%;
+	font-weight: 500;
+	padding-bottom: 5px; 
+	padding-left: 5px;
+}
+
+.bowlers .complete{
+	text-align: center;
+	text-decoration: none;
+	font-size: 105%;
+	letter-spacing: 0.3px;
+	color: #b82601;
+	font-weight: 100;
+	padding-top: 10px;
+}
+.bowlers .complete a{color: #b82016; text-decoration: none;}
+
+.bowlers .complete a:hover{
+	text-decoration: underline;
+}
+
+
+
+
+.fixtures{ /* 23 */
+	width: 16.7%;
+	padding: 1%;
+	margin-left: 0.3%;
+	font-family: calibri;
+	background-color: white;
+	font-family: calibri;
+}
+.fixtures .first_match p{
+	font-size: 11pt;
+}
+
+.fixtures .f_line{
+	margin-top: 10px;
+}
+.fixtures .sec_line{
+	margin-top: 0px;
+}
+.fixtures .thi_line{
+	margin-bottom: 5px;
+}
+
+p.date{
+	color: #b82601;
+	margin-bottom: 5px;
+}
+.fixtures .full_sch{
+	font-size: 13pt;
+	font-family: calibri;
+	margin-top: 8px;
+	color: #B82601;
+}
+.fixtures .full_sch a{
+	color: #b82601;
+	text-decoration: none;
+}
+.fixtures .full_sch a:hover{
+	text-decoration: underline;
+}
+.fixtures .top{
+	background-color: #efefef;
+	color: #000;
+	padding-bottom: 5px;
+	padding-top: 5px;
+	padding-left: 5px;
+	font-family: calibri;
+}
+.fixtures  h2{
+	font-size: 135%;
+	font-weight: 600;
+}
+
+
+
+
+
+
+.results{ /* 19 */
+	width: 16.7%;
+	padding: 1%;
+	margin-left: 0.3%;
+	position: relative;
+	top: 15px;
+	background-color: white;
+	font-family: calibri;
+}
+.results .first_match p{
+	font-size: 11pt;
+}
+
+.results .f_line{
+	margin-top: 10px;
+}
+.results .sec_line{
+	margin-top: 0px;
+}
+.results .thi_line{
+	margin-bottom: 10px;
+}
+
+p.date{
+	color: #b82601;
+	margin-bottom: 5px;
+}
+.results .full_sch{
+	font-size: 13pt;
+	font-family: calibri;
+	margin-top: 8px;
+	text-decoration: none;
+	color: #b82601;	
+}
+.results .full_sch a{
+	text-decoration: none;
+	color: #b82601;
+}
+.results .full_sch a:hover{text-decoration: underline;}
+.results .top{
+	background-color: #efefef;
+	color: #000;
+	padding-bottom: 5px;
+	padding-top: 5px;
+	padding-left: 5px;
+	font-family: calibri;
+}
+.results  h2{
+	font-size: 135%;
+	font-weight: 600;
+}
+
+
+.m_content{
+	position: absolute;
+	top: 5px;
+	left: 19%;
+	width: 53.3%;
+	margin-left: 0.9%;
+	font-family: calibri;
+	
+}
+.m_content .one{
+	width: 100%;
+	height: auto;
+	margin-top: 5px;
+	background-color: white;
+	overflow: hidden;
+	margin-bottom: 30px;
+}
+.m_content img{
+	width: 100%
+}
+.m_content h2 a{
+	color: black;
+	text-decoration: none;
+	padding-left: 10px;
+}
+.m_content h2 a:hover{
+	color: #b82016;
+}
+.m_content .one p{
+
+	padding: 15px 10px;
+	font-family: calibri;
+	font-size: 11.5pt;
+	margin-right: 10px;
+}
+.m_content ul{
+	display:block;
+	list-style-position: inside;
+	padding-left: 10px;
+	padding-top: 18px;
+	padding-bottom: 10px;
+	font-family: calibri;
+	margin-left: 10px;
+}
+.m_content ul li{
+	color: #b82016;
+}
+.m_content ul li:hover{
+	color: #b82601;
+	text-decoration: underline;
+	cursor: pointer;
+}
+.m_content .two{
+	background-color: white;
+	padding-top: 15px;
+	padding-left: 15px;
+	height: 570px;
+	margin-bottom: 25px;
+}
+.m_content hr{
+	position: relative;
+	top: 10px;
+}
+.m_content .two img
+{
+	padding-top: 0px;
+	width: 35%; float: left;
+}
+.m_content .two ul li{
+	position: relative;
+	top:  -27px;
+}
+.m_content h3 a{
+	font-family: calibri;
+	text-decoration: none;
+	color: black;
+	padding-left: 10px;
+}
+.m_content a:hover{
+	color: #b82016;	
+}
+.m_content .two p{
+	margin-right: 10px;
+	padding: 8px 5px;
+	font-size: 11pt;
+	position: relative;
+	left: 10px;
+}
+.m_content .three{
+	height: 165px;
+}
+
+
+.m_content .threee{
+	width: 100%;
+	background-color: white;
+	padding-top: 0px;
+	padding-left: 0px;
+	height: 480px;
+	margin-bottom: 0px;
+}
+.threee h3{
+	padding-top: 30px;
+	padding-left: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		/******************************************* Footer CSS ************************************/
+
+		.footer{
+
+			width: 98%;
+			height: auto;
+			border-top: 1px solid black;
+			padding-top: 5%;
+			padding-bottom: 10%;
+			padding-left: 1%;
+			padding-right: 1%;
+			font-size: 13pt;
+			margin-top: 10%;
+			
+		}
+
+		footer .logos{
+			float: right;
+			margin: 5px;
+		}
+
+
+		.footer .copyright p {
+			float: left;
+			
+		}
+
+
+	

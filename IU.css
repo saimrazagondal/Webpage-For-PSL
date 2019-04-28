@@ -1,0 +1,322 @@
+/* I, hereby declare that this file entitled “IU.css_Saim Raza Gondal_173087_BSCS6C” submitted as an assignment for the course CS344: 
+Web Engineering, is a record of an original work done by me and that no part has been plagiarized.*/
+
+
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	width: 1200px;
+	margin: 0 auto;
+	background-color: #efefef;	
+	font-family: calibri;
+}
+
+
+/*****************HEADER***************/
+header {
+	width: 100%;
+	height: 65px;
+	padding-top: 5px;
+	background-color: #efefef;
+	position: relative;
+}
+
+header .logo{
+	float: left;
+	width: 9%;
+	height: 98%;
+	margin-left: 1.2%;
+}
+
+header .signup{
+	position: absolute;
+	right: 1%;
+	bottom: 25px;
+	font-size: 13pt;
+	margin-top: 1%;
+	margin-right: 1.5%;
+}
+
+a{
+	font-family:Calibri, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif"
+	
+}
+
+header .login{
+	position: absolute;
+	top: 15%;
+	right: 8%;
+	bottom: 25px;
+	font-size: 13pt;
+	line-height: 18pt;
+	margin-top: 1%;
+	margin-right: 1%;
+	border-right: 1px solid black;
+	padding-right: 25px;
+}
+
+
+
+
+
+header .login a, header .signup a{
+	text-decoration: none;
+	color: black;
+	
+}
+
+.login a:hover, .signup a:hover{
+	cursor: pointer;
+	color: #b82601;
+	text-decoration: none;
+	text-decoration-color: none;
+}
+
+
+/************HEADER END****************/
+
+
+
+.menu{
+	display: inline-block;
+	position: relative;
+}
+.menu_anchor{
+	margin-left: 25px;
+	position: relative;
+	top: 10px;
+	color: #efefef;
+}
+
+.d_content{
+	display: none;
+	min-width: 170px;
+	position: absolute;
+	top:30px;
+	left: -15px;
+	z-index: 1;
+	border: 1px solid black;
+	border-top: none;
+	background-color: #efefef;
+}
+
+.d_content a{
+	display: block;
+	color: black;
+	padding: 10px 10px;
+	
+	
+}
+
+.d_content a:hover{
+	color: #b82601;
+	border-bottom: 1px solid #b82016;
+	border-top: 1px solid #b82016;
+	opacity: 1;
+}
+.menu:hover .d_content{
+	display: block;
+}
+
+
+
+
+
+
+/************SEARCH BAR***************/
+
+.search_div{
+	width: 100%;
+	height: 40px;
+	border-bottom: 1px solid black;
+	border-top: 1px solid black;
+	color: #efefef;
+	background-color: #b82601;
+
+}
+.search_div{
+	position: relative;
+}
+.search_div img{
+	position: absolute;
+	right: 8px;
+	top: 8px;
+	bottom: 10px;
+	width: 2%;
+}
+.search_div input{
+	width: 25%;
+	position: absolute;
+	border-radius: 20px;
+	outline: none;
+	border: none;
+	right: 3%;
+	top: 10px;
+	bottom: 10px;
+	padding-left: 5px;
+	font-size: 11pt;
+	font-style: italic;
+}
+.search_div input:focus{
+	font-style: normal;
+	font-family: calibri;
+}
+.search_div ul{
+	list-style: none;	
+}
+.search_div ul li{
+	display: inline;
+	padding-left: 5px;
+}
+.search_div ul li a {	
+	position: relative;
+	
+	text-decoration: none;
+		
+	
+}
+.search_div .title{
+	position: relative;
+	top: 10px;
+	left: 15px;
+	padding-right: 20px;
+	border-right: 1px solid #efefef;
+	font-family: calibri;
+}
+
+
+
+/****SEARCH BAR END************/
+
+
+.main_wrapper{
+	width: 100%;
+	margin: 0 auto;
+	padding-top: 0.5%;
+	position: relative;
+}
+
+
+.heading{
+	background-color: #b82016;
+	color: #efefef;
+	width: 90%;
+	margin: 0 auto;
+	padding: 5px 0px;
+
+}
+.heading h3{
+	font-size: 130%;
+	font-weight: 600;
+}
+
+.team_members{
+	width: 85%;
+	margin: 0 auto;
+	height: 1950px;
+	background-color: white;
+	position: relative;
+	margin-bottom: 100px;
+}
+
+.team_members h2{
+	text-align: center;
+	font-family: calibri;
+	padding: 10px;
+}
+
+.team_members .player{
+	width: 25%;
+	float: left;
+	height: 345px;
+	margin-bottom: 4%;
+}
+
+.team_members .player img{
+	width: 95%;
+	float: left;
+	margin-top: 8%;
+	position: relative;
+	left: 7px;
+	opacity: 0.8;
+	transition: opacity 0.7s;
+	transition: transform 0.7s ease-in-out;
+}
+.team_members .player img:hover{
+	transform: scale(1.1);
+	opacity: 1;
+}
+
+
+.tables{
+	width: 75%;
+	margin: 0 auto;
+	margin-bottom: 10%;
+	font-size: 110%;
+}
+
+.batsmen_table{
+	background-color: #b82016;
+	color: #efefef;
+	width: 100%;
+	margin: 0 auto;
+	padding: 5px 0px;
+}
+
+.table{
+	width: 95%;
+	margin: 0  auto;
+	background-color: white;
+	font-size: 13pt;
+
+
+
+}
+.table tr{
+	text-align: center;
+}
+
+.table thead {
+	font-size: 14pt;
+	color: #b82016;
+
+
+}
+.name_b{
+	color: black;
+	font-weight: bold;
+}
+.table tbody .gray_row{
+	background-color: #f9f9f9;
+}
+
+
+.footer{
+	width: 100%;
+	height: 80px;
+	background-color: #b82016;
+	color: #efefef;
+
+}
+
+.footer .logos{
+	float: right;
+	position: relative;
+	top: 25px;
+	right: 35px;
+}
+.footer .copyright{
+	padding-left: 35px;
+	padding-top: 30px;
+}
+.copyright p{
+	display: inline;
+}
+.a_r_r{
+	position: relative;
+	left: 35px;
+}
